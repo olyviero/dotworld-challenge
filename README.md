@@ -33,7 +33,7 @@ This project was a personal challenge and a way to say:
 ---
 
 Thanks for taking the time to check it out.  
-I’d love to connect and see how I can **bring this same energy and passion** to DotWorld.ch. 🚀
+👉 **Let’s connect!** Feel free to reach out to me at [hello@olyvier.com](mailto:hello@olyvier.com).
 
 Cheers,  
 **Olivier** ✨
