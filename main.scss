@@ -1,0 +1,99 @@
+@import "./styles/reset.scss";
+@import "./styles/fonts.scss";
+@import "./styles/utils.scss";
+@import "./styles/modal.scss";
+@import "./styles/sections.scss";
+@import "./styles/animations.scss";
+
+:root {
+  --dw-light-grey: #f2f1f9;
+  --dw-black: #1c1c1f;
+  --white: white;
+  --dw-purple: #907eff;
+  --g-blue: #36cfff;
+  --g-purple: #994de5;
+  --g-pink: #ff5eb5;
+  --g-orange: #fdb252;
+  --gray: #fff3;
+}
+
+body {
+  background-color: var(--dw-light-grey);
+  color: #000;
+  font-size: px;
+  line-height: 1.5;
+}
+
+* {
+  font-family: "Dotworld Grotesk", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1,
+.h1 {
+  font-size: 4.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 3rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.5rem;
+}
+
+a:not(.button) {
+  color: var(--dw-black);
+  font-weight: 700;
+
+  &:hover {
+    font-weight: 700;
+    @extend .cool-gradient;
+  }
+}
+
+button,
+.button {
+  background-color: var(--white);
+  box-shadow: 3px 3px 0 0 var(--dw-black);
+  color: var(--dw-black);
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  width: fit-content;
+  transition: transform 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045), box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 6px 6px 0 0 var(--dw-black);
+    transform: translate(0, -2px);
+  }
+
+  &.transparent {
+    background: transparent;
+  }
+}
+
+#grain-overlay {
+  position: relative;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.04;
+  background-image: url("/images/grain.gif");
+  background-position: 0 0;
+  background-size: auto;
+  position: fixed;
+  inset: 0;
+}

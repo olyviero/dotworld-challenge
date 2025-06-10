@@ -1,0 +1,66 @@
+#mum {
+  .title div {
+    color: var(--dw-black);
+    transition: color 0.3s ease, transform 0.3s ease-in-out;
+    display: inline-block;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+
+  .word1 {
+    animation: colorPurple 4s infinite;
+  }
+
+  .word2 {
+    animation: colorPink 4s infinite;
+  }
+
+  .word3 {
+    animation: colorOrangeAndMove 4s infinite;
+  }
+}
+
+@keyframes colorPurple {
+  0%,
+  25% {
+    color: var(--dw-black);
+  }
+  25%,
+  100% {
+    color: var(--dw-purple);
+  }
+}
+
+@keyframes colorPink {
+  0%,
+  50% {
+    color: var(--dw-black);
+  }
+  50%,
+  100% {
+    color: var(--g-pink);
+  }
+}
+
+@keyframes colorOrangeAndMove {
+  0%,
+  50% {
+    color: var(--dw-black);
+    transform: translateX(0);
+  }
+  50%,
+  70% {
+    color: var(--g-orange);
+    transform: translateX(0);
+  }
+  70%,
+  90% {
+    color: var(--g-orange);
+    transform: translateX(50px);
+  }
+  90%,
+  100% {
+    color: var(--g-orange);
+    transform: translateX(0);
+  }
+}

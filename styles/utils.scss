@@ -1,0 +1,41 @@
+.cool-gradient {
+  background-image: linear-gradient(45deg, var(--g-blue), var(--g-purple) 33%, var(--g-pink) 66%, var(--g-orange));
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.in-pad {
+  padding-inline: 2rem;
+}
+
+.boxed {
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.text-medium {
+  font-size: 1.125rem;
+}
+.medium {
+  font-weight: 500;
+}
+.bold {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.split span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  @extend .medium;
+}
