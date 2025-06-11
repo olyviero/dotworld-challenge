@@ -6,7 +6,7 @@
 
 ## 🚀 My Motivation & Project
 
-I took on the challenge of **recreating and adapting your amazing website** in just **24 hours** – not to steal, but to **show you my dedication and excitement** to join your team.  
+I took on the challenge of **recreating and adapting your amazing website** in just **A day work (7 hours)** – not to steal, but to **show you my dedication and excitement** to join your team.  
 I wanted to demonstrate that I **understand your vision**, and that I’m ready to put in the hard work to **align perfectly with your stack and spirit**.
 
 ---
@@ -24,7 +24,7 @@ I wanted to demonstrate that I **understand your vision**, and that I’m ready 
 
 Please don’t see this as an attempt to **copy or steal your ideas**.  
 I **love** your design. It’s inspiring and reflects a clear vision.  
-Rebuilding it was my way to **showcase my motivation** and how quickly I can work. I didn’t manage to recreate everything or go as far as I wanted, but I set a 24-hour limit to challenge myself and still highlight that I’m already in tune with your values and approach.
+Rebuilding it was my way to **showcase my motivation** and how quickly I can work. I didn’t manage to recreate everything or go as far as I wanted, but I set a 7-hour limit to challenge myself and still highlight that I’m already in tune with your values and approach.
 
 ---
 
